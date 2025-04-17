@@ -5,10 +5,10 @@
 
 class ClapTrap {
 	private:
-		std::string name;
-		int hit_points = 10;
-		int energy = 10;
-		int attack_damage = 0;
+		std::string _name;
+		int _hit_points;
+		int _energy;
+		int _attack_damage;
 	public:
 		// orthodox cannocal form
 		ClapTrap();
