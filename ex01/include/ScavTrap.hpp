@@ -9,7 +9,7 @@ class ScavTrap : public ClapTrap {
 	// orthodox cannocal form
     ScavTrap();
     ScavTrap(const ScavTrap &trap);
-    ClapTrap &operator=(const ScavTrap &trap);
+    ScavTrap &operator=(const ScavTrap &trap);
     ~ScavTrap();
 
     // other constructor
@@ -17,6 +17,9 @@ class ScavTrap : public ClapTrap {
 
     // functions
     void guardGate();
+
+    // debug
+    void show();
 };
 
 #endif

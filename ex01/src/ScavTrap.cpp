@@ -37,5 +37,12 @@ ScavTrap::ScavTrap(const std::string &name) : ClapTrap()  {
 }
 
 void ScavTrap::guardGate() {
-  std::cout << "ScavTrap::guardGate()" << std::endl;
+  std::cout << _name << ": ScavTrap now in Gate keeper mode." << std::endl;
+}
+
+void ScavTrap::show() {
+  std::cout << "Name: " << _name << std::endl;
+  std::cout << "Hit points: " << _hit_points << std::endl;
+  std::cout << "Energy: " << _energy << std::endl;
+  std::cout << "Attack damage: " << _attack_damage << std::endl;
 }
