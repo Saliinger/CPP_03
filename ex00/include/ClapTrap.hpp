@@ -13,7 +13,7 @@ class ClapTrap {
 		// orthodox cannocal form
 		ClapTrap();
 		ClapTrap(ClapTrap const &trap);
-		~ClapTrap();
+		virtual ~ClapTrap();
 		ClapTrap &operator=(ClapTrap const &trap);
 
         // constructor if name
